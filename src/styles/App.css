@@ -1,0 +1,84 @@
+/* App.css */
+body {
+  padding: 20px;
+  padding-bottom: 80px;
+}
+
+.app-container {
+  background-image: linear-gradient(#b2b2b4, white, #a4a4a4);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.weather-cloudy {
+  background-color: #b0c4de;
+}
+
+.weather-rainy {
+  background-color: #708090;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+.search-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.search-form label {
+  font-weight: bold;
+}
+
+.search-button {
+  width: 200px;
+  margin: 20px auto 0;
+  padding: 10px;
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.weather-details {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 10px 0;
+  left: 0;
+}
